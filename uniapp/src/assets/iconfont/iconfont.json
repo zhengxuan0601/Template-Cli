@@ -1,0 +1,23 @@
+{
+  "id": "2528571",
+  "name": "mp-weixin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "21398331",
+      "name": "wx-share",
+      "font_class": "wx-share",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "21397833",
+      "name": "wx-back",
+      "font_class": "wx-back",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    }
+  ]
+}
