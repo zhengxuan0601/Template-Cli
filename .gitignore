@@ -1,0 +1,11 @@
+node_modules/
+/dist/
+.idea
+.vscode
+/安装包及文件
+/VueFront/package-lock.json
+/ReactFront/build
+/nodelog
+/snapfile
+/snap
+/upload-file/uploads
