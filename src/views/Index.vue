@@ -1,5 +1,5 @@
 <template>
-  shouye
+  大LOGO
 </template>
 
 <script lang="ts">

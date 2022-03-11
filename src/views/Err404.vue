@@ -2,7 +2,7 @@
   <img class="_404" src="@/assets/images/404.png" />
 </template>
 
-<script>
+<script lang="ts">
 import { defineComponent } from 'vue'
 export default defineComponent({
 
