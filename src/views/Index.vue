@@ -1,5 +1,5 @@
 <template>
-  大LOGO
+  首页
 </template>
 
 <script lang="ts">

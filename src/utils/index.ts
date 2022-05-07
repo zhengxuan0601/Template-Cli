@@ -20,16 +20,16 @@ export function newRandomId (): string {
  * @param { number } max 区间最大值
  * @return { number }
  */
- export function getRandomNum (min: number, max: number): number {
+export function getRandomNum (min: number, max: number): number {
   const t = Math.random() * (max - min) + min
   return t
 }
 
 /**
  * 函数节流
- * @param fn 
- * @param t 
- * @returns 
+ * @param fn
+ * @param t
+ * @returns
  */
 export function throttle (fn: { apply: (arg0: any, arg1: any[]) => void }, t: number): any {
   let flag = true
@@ -47,9 +47,9 @@ export function throttle (fn: { apply: (arg0: any, arg1: any[]) => void }, t: nu
 
 /**
  * 函数防抖
- * @param fn 
- * @param t 
- * @returns 
+ * @param fn
+ * @param t
+ * @returns
  */
 export function debounce (fn: { apply: (arg0: any, arg1: any) => void }, t: number): any {
   let timeId: any = null
@@ -64,4 +64,3 @@ export function debounce (fn: { apply: (arg0: any, arg1: any) => void }, t: numb
     }, delay)
   }
 }
-
